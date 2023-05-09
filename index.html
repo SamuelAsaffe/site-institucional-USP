@@ -1,0 +1,98 @@
+<!--
+    Carrosel e Cards com 4 últimas notícias do site oficial.
+-->
+
+<!--
+    TODAS AS PÁGINAS
+    - HEADER
+        - Navbar (Início, Campus, Cursos, Vestibulares)
+    - FOOTER
+        - Localização e Contatos (telefone e e-mail da Reitoria)
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando arquivos CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Importando arquivos JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="img/usp-brand.webp"><img src=" img/usp-brand.webp" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pages/campus.html"> Campus </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/cursos.html"> Cursos </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="pages/vestibulares.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Vestibulares
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/vestibulares.html#vestibulares2023"> Vestivular
+                                        2023</a></li>
+                                <li><a class="dropdown-item" href="pages/vestibulares.html#vestibulares2022"> Vestibular
+                                        2022</a></li>
+                                <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+                                <li><a disabled class="dropdown-item disabled" href="#">Ganhe um Pix</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <Main>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-1"></div>
+                <div class="col-4"></div>
+                <div class="col-1"></div>
+            </div>
+
+
+        </div>
+    </Main>
+    <h1>Hello, Bootstrap!</h1>
+
+
+</body>
+
+</html>

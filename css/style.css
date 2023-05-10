@@ -1,15 +1,28 @@
 #redessociais {
-    background-color: rgb(133, 170, 202);
+    margin: 20px 0 15px 0;
     border-radius: 5px;
     text-decoration-line: none;
 }
 #covid {
-    background-color: rgb(38, 38, 151);
+    background-color: #2D3C6B;
     color: white;
+    margin: 15px 0 15px 0;
 }
 @media (max-width: 700px) {
     #os4 { 
+        
         display: block;
-    }
-    
+        margin: 20px 0 15px 0;
+    }  
+}
+#os4 {
+    margin: 20px 0 20px 0;
+    background-color: #f3ede2;
+}
+#institucional {
+    background-color: #E5E0D7;
+    padding: 10px 0 20px 0;
+    font-size: 48px;
+    color: #333333
+    ;
 }

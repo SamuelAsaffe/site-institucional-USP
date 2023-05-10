@@ -1,4 +1,9 @@
 #redessociais {
     background-color: rgb(133, 170, 202);
     border-radius: 5px;
+    text-decoration-line: none;
+}
+#covid {
+    background-color: rgb(38, 38, 151);
+    color: white;
 }

@@ -7,3 +7,9 @@
     background-color: rgb(38, 38, 151);
     color: white;
 }
+@media (max-width: 700px) {
+    #os4 { 
+        display: block;
+    }
+    
+}

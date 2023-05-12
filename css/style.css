@@ -1,6 +1,12 @@
 body {
+    width: 100%;
+    height: auto;
     background-color: #fcf9f3;
+    /* background-color: #000; */
 }
+* [
+    background-color: #000;
+]
 main {
     background-color: #fcf9f3;
 }

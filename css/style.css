@@ -1,3 +1,9 @@
+.body {
+    background-color: #fcf9f3;
+}
+main {
+    background-color: #fcf9f3;
+}
 #redessociais {
     margin: 20px 0 15px 0;
     border-radius: 5px;
@@ -9,15 +15,21 @@
     margin: 15px 0 15px 0;
 }
 @media (max-width: 700px) {
-    #os4 { 
+    #projetos { 
         
         display: block;
         margin: 20px 0 15px 0;
     }  
 }
-#os4 {
+#projetos {
+    color: #7a7a7a
+    ;
     margin: 20px 0 20px 0;
-    background-color: #f3ede2;
+    background-color: #fcf9f3;
+
+}
+#projetos a {
+    color: #0d8694;
 }
 #institucional {
     background-color: #E5E0D7;
@@ -26,3 +38,8 @@
     color: #333333
     ;
 }
+#institucional a {
+    color: #1094ab;
+
+}
+

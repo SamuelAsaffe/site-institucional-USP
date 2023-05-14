@@ -4,9 +4,9 @@ body {
     background-color: #fcf9f3;
     /* background-color: #000; */
 }
-* [
+/* * {
     background-color: #000;
-]
+} */
 main {
     background-color: #fcf9f3;
 }
@@ -14,6 +14,9 @@ main {
     margin: 20px 0 15px 0;
     border-radius: 5px;
     text-decoration-line: none;
+}
+#covide a {
+    text-decoration: none;
 }
 #covid {
     background-color: #2D3C6B;
@@ -38,6 +41,7 @@ main {
     color: #0d8694;
 }
 #institucional {
+    margin-top: 25px;
     background-color: #E5E0D7;
     padding: 10px 0 20px 0;
     font-size: 48px;
@@ -46,6 +50,39 @@ main {
 }
 #institucional a {
     color: #1094ab;
+    text-decoration-line: none;
+    font-size: 25px;
 
 }
-
+#destaques{
+    margin-top: 40px;
+    background:#F9F9F9;
+    color: #050505
+}
+#destaques > img {
+    align-items: center;
+    
+}
+#destaques a {
+    text-decoration-line: none;
+    color: #0d8694;
+}
+footer { 
+    padding: 20px 0 20px 0;
+    margin-top: 30px;
+    background: #EDB137;
+}
+footer a {
+    
+    text-decoration-line: none;
+    color: #0d8694;
+}
+#footercol1 {
+    margin: ;
+}
+#footercol2 {
+    
+}
+#footercol3 {
+    margin-top: 40px;
+}

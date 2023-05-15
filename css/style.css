@@ -86,3 +86,25 @@ footer a {
 #footercol3 {
     margin-top: 40px;
 }
+#campus a {
+    text-decoration-line: none ;
+    color: #0d8694;
+}
+#campuscol2 a{
+    text-decoration-line: none ;
+    color: #626262
+    
+}
+#campuscol2 ul{
+    list-style: none;
+    color: #626262
+}
+#campus2e3 {
+    margin: 40px 0;
+}
+#campus4e5 {
+    margin: 40px 0;
+}
+#campus6e7 {
+    margin: 40px 0;
+}

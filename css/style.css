@@ -35,7 +35,6 @@ main {
     ;
     margin: 20px 0 20px 0;
     background-color: #fcf9f3;
-
 }
 #projetos a {
     color: #0d8694;
@@ -45,14 +44,12 @@ main {
     background-color: #E5E0D7;
     padding: 10px 0 20px 0;
     font-size: 48px;
-    color: #333333
-    ;
+    color: #333333;
 }
 #institucional a {
     color: #1094ab;
     text-decoration-line: none;
     font-size: 25px;
-
 }
 #destaques{
     margin-top: 40px;
@@ -107,4 +104,17 @@ footer a {
 }
 #campus6e7 {
     margin: 40px 0;
+}
+.ensino img {
+    max-width: 90%; max-height: 280px;
+}
+.ensino a {
+    text-decoration-line: none ;
+    color: #000
+}
+.ensino {
+    margin-top: 90px;
+}
+#edu {
+    margin-bottom: 30px;
 }

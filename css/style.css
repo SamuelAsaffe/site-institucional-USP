@@ -118,3 +118,18 @@ footer a {
 #edu {
     margin-bottom: 30px;
 }
+/* #nomesCampus1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+#nomesCampus2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+#campus{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+} */
